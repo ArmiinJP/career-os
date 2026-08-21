@@ -20,11 +20,23 @@ Git history preserves how the current state was reached.
 
 ---
 
-## Start Here
+## Quick start
 
-### For a new AI / new conversation
+If continuing with another AI:
 
-Read these files in order:
+1. Give the AI the repository:
+   https://github.com/ArmiinJP/career-os
+2. Tell it to read `AI_CONTEXT.md` first.
+3. Then tell it to follow `START_PROMPT.md`.
+4. The AI should reconstruct the current state before starting any assessment or teaching.
+5. The current `Immediate next action` is the authoritative starting point.
+
+For a detailed reconstruction, the AI can then consult:
+- `AI_HANDOFF.md`
+- `CURRENT_STATE.md`
+- `BASELINE.md`
+- `ROADMAP.md`
+- `DECISIONS.md`
 
 1. [`AI_ENTRYPOINT.md`](./AI_ENTRYPOINT.md)
 2. [`START_PROMPT.md`](./START_PROMPT.md)
