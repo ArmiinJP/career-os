@@ -13,17 +13,102 @@ The repository is designed to remain useful even when the original AI conversati
 - Git history is the authoritative history of how the current state evolved.
 - Do not assume facts that are not supported by the repository or by new user evidence.
 
-## First Read
+# AI ENTRYPOINT — Career OS
 
-When entering this repository for the first time, read in this order:
+This repository is the single source of truth for the user's long-term career development system.
 
-1. `START_PROMPT.md`
-2. `CURRENT_STATE.md`
-3. `ROADMAP.md`
-4. `BASELINE.md`
-5. `AI_HANDOFF.md`
+The latest meaningful commit on the canonical `main` branch represents the latest durable Career OS state.
 
-Read other files only when needed.
+Previous AI conversations are optional context and are NOT required to continue the journey.
+
+## Entry Order
+
+When entering Career OS for the first time, follow this order:
+
+### Step 1 — Portable Context
+
+Read:
+
+`AI_CONTEXT.md`
+
+This is the compact, portable reconstruction of the user's professional profile, current strengths, gaps, roadmap position, current topic, and immediate next action.
+
+### Step 2 — Operating Rules
+
+Read:
+
+`AI_ENTRYPOINT.md`
+
+This file defines how an AI should interpret and operate Career OS.
+
+### Step 3 — Current State
+
+Read:
+
+`CURRENT_STATE.md`
+
+This is the detailed current state.
+
+### Step 4 — Additional Detail When Needed
+
+Consult:
+
+- `AI_HANDOFF.md`
+- `BASELINE.md`
+- `ROADMAP.md`
+- `CAREER_OS.md`
+- `DECISIONS.md`
+- `CHANGELOG.md`
+
+Only read deeper knowledge/evidence files when they are relevant to the current task.
+
+## Important Rules
+
+- Do not use `README.md` as the source of current state.
+- Do not restart the baseline unless the repository explicitly indicates that it is outdated.
+- Do not infer missing facts when they can be verified from the repository.
+- Distinguish facts, assessments, inferences, and proposals.
+- Do not treat a technology name in the repository as proof of mastery.
+- Distinguish practical experience from formal conceptual knowledge.
+- Do not change roadmap priorities without meaningful evidence.
+- Do not introduce complexity without a clear requirement or capability reason.
+- If uncertainty could materially affect the next step, use a small targeted assessment.
+- Otherwise continue from the current `Immediate Next Action`.
+
+## Continuity Principle
+
+The Career OS must remain usable even when:
+
+- the original AI is unavailable,
+- the previous conversation is unavailable,
+- a different AI is used,
+- or the model is changed.
+
+A new AI should be able to reconstruct the current state from the repository alone.
+
+## Current-State Principle
+
+`AI_CONTEXT.md` provides the portable summary.
+
+`CURRENT_STATE.md` provides the detailed current state.
+
+The remaining files provide supporting history, knowledge, decisions, and evidence.
+
+Do not create a second competing source of truth.
+
+## Learning Principle
+
+AI is an amplifier, not the primary source of truth.
+
+For important technical learning:
+
+Primary source
+→ Study
+→ User explanation
+→ AI challenge
+→ Practical application
+→ Durable knowledge
+→ Retrieval/review
 
 ## Current-State Priority
 

@@ -20,35 +20,44 @@ Git history preserves how the current state was reached.
 
 ---
 
-## Quick start
+## Quick Start
 
-If continuing with another AI:
+### Starting with a new AI or a new conversation
 
-1. Give the AI the repository:
-   https://github.com/ArmiinJP/career-os
-2. Tell it to read `AI_CONTEXT.md` first.
-3. Then tell it to follow `START_PROMPT.md`.
-4. The AI should reconstruct the current state before starting any assessment or teaching.
-5. The current `Immediate next action` is the authoritative starting point.
+The repository is the source of truth.
 
-For a detailed reconstruction, the AI can then consult:
-- `AI_HANDOFF.md`
-- `CURRENT_STATE.md`
-- `BASELINE.md`
-- `ROADMAP.md`
-- `DECISIONS.md`
+Give the AI access to this repository and instruct it to follow:
 
-1. [`AI_ENTRYPOINT.md`](./AI_ENTRYPOINT.md)
-2. [`START_PROMPT.md`](./START_PROMPT.md)
+[`START_PROMPT.md`](./START_PROMPT.md)
+
+The AI should begin by reading:
+
+1. [`AI_CONTEXT.md`](./AI_CONTEXT.md)
+2. [`AI_ENTRYPOINT.md`](./AI_ENTRYPOINT.md)
 3. [`CURRENT_STATE.md`](./CURRENT_STATE.md)
-4. [`ROADMAP.md`](./ROADMAP.md)
-5. [`BASELINE.md`](./BASELINE.md)
-6. [`AI_HANDOFF.md`](./AI_HANDOFF.md)
 
-The first two files explain **how to work with this repository**.
+It should then consult other files only when additional detail is required.
 
-The remaining files explain **where the person is, where they are going, and what has already been learned**.
+The current state must be reconstructed from the repository itself.
 
+Previous AI conversations are not required.
+
+### Portable Context
+
+`AI_CONTEXT.md` is the compact portable context of the current Career OS.
+
+It should allow a new AI to understand:
+
+- who the user is
+- current professional strengths
+- current gaps
+- baseline status
+- current roadmap phase
+- current learning focus
+- current immediate next action
+- important working and learning principles
+
+For deeper context, use `AI_HANDOFF.md`, `BASELINE.md`, `ROADMAP.md`, `CURRENT_STATE.md`, and the relevant knowledge/decision/evidence files.
 ---
 
 ## Repository Structure
